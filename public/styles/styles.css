@@ -1,0 +1,100 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+
+
+body{
+    background: #222;
+}
+.weather-card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 35px;
+    border-radius:20px;
+    text-align: center;
+    height: 530px;
+    
+}
+.search input{
+    border-radius: 20px;
+    height: 5vh;
+    width: 18vw;
+    border-style: none;
+    color: #222;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+    
+}
+.search input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.08);
+    margin-right: 10px;
+}
+.search button{
+    border-radius: 20px;
+    height: 5vh;
+    color: #222;
+    border-style: none;
+    width: 5vw;
+
+    
+}
+.search button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 600;
+    transform: scale(1.08);
+    margin-left: 10px;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp .celcius{
+    color: #fff;
+    font-size: 5rem;
+
+}
+.humidity img{
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.wind-speed img{
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.pressure img{
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.rain img{
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
