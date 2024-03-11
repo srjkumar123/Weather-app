@@ -24,7 +24,7 @@ app.get("/", async(req, res) => {
         });
         res.render("get-weather.ejs",{
             country :result.data.sys.country,
-            tempC:result.data.main.temp,
+            tempC:result.data.main.temp+"°C",
             city: result.data.name,
              clouds : result.data.clouds.all,
             wind : result.data.wind.speed,
